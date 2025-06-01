@@ -33,11 +33,11 @@ body {
     @apply -rotate-45;
 }
 
-.container {
+/* .container {
   max-width: 1100px;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 #dark-toggle:checked ~ label div.toggle-circle {
  @apply translate-x-3;

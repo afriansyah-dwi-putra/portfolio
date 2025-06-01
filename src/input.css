@@ -18,7 +18,7 @@ body {
 }
 
 .hamburger-line {
-    @apply w-6 h-0.5 bg-black dark:bg-white mb-1 last:mb-0 transition duration-300 ease-in-out;
+    @apply w-[30px] h-[2px] my-2 block bg-dark dark:bg-white
 }
 
 .hamburger-active > span:nth-child(1){

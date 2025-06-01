@@ -9,7 +9,7 @@
 
 body {
     font-family : 'Inter', sans-serif;
-    overflow-x : hidden;
+    /* overflow-x : hidden; */
 }
 
 .navbar-fixed {
@@ -33,11 +33,10 @@ body {
     @apply -rotate-45;
 }
 
-/* .container {
-  max-width: 1100px;
-  margin-left: auto;
-  margin-right: auto;
-} */
+.container {
+  @apply max-w-[1100px] mx-auto;
+}
+
 
 #dark-toggle:checked ~ label div.toggle-circle {
  @apply translate-x-3;

@@ -788,6 +788,11 @@
       margin-inline: calc(var(--spacing) * -30);
     }
   }
+  .md\:mx-auto {
+    @media (width >= 48rem) {
+      margin-inline: auto;
+    }
+  }
   .md\:h-\[550px\] {
     @media (width >= 48rem) {
       height: 550px;
@@ -1104,12 +1109,6 @@ body {
 #dark-toggle:checked ~ label div.toggle-circle {
   --tw-translate-x: calc(var(--spacing) * 3);
   translate: var(--tw-translate-x) var(--tw-translate-y);
-}
-@media (min-width: 1320px) {
-  .container: {
-    center: true;
-    padding: '16px';
-  }
 }
 @property --tw-translate-x {
   syntax: "*";

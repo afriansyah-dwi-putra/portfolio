@@ -44,10 +44,10 @@ body {
 
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
-@media (min-width: 1320px) {
+@media (min-width: 768px) {
       .container: {
-    position: fixed;
+        position: fixed;
         top: 0;
-    left: 0;
+        left: 0;
     }
 }

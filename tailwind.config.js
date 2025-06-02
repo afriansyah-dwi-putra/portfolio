@@ -5,5 +5,8 @@ module.exports = {
       center: true,
       padding: '16px',
     },
+    screens : {
+        '2xl': '1320px',
+    },
   },
 };

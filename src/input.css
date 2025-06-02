@@ -47,5 +47,7 @@ body {
 @media (min-width: 1320px) {
       .container: {
     position: fixed;
+        top: 0;
+    left: 0;
     }
 }

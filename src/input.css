@@ -33,9 +33,9 @@ body {
     @apply -rotate-45;
 }
 
-/* .container {
+.container {
   @apply max-w-[1100px] mx-auto;
-} */
+}
 
 
 #dark-toggle:checked ~ label div.toggle-circle {
@@ -43,3 +43,10 @@ body {
 }
 
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+@media (min-width: 1320px) {
+      .container: {
+      center: true;
+      padding: '16px';
+    }
+}

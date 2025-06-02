@@ -46,7 +46,6 @@ body {
 
 @media (min-width: 1320px) {
       .container: {
-      center: true;
-      padding: '16px';
+    position: fixed;
     }
 }

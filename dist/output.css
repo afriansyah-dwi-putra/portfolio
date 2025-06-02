@@ -1081,6 +1081,8 @@ body {
     }
   }
   box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.2);
+  width: 446px;
+  height: 60px;
 }
 .hamburger-line {
   margin-block: calc(var(--spacing) * 2);

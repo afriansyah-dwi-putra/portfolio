@@ -1062,7 +1062,7 @@
   }
 }
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 .navbar-fixed {
   position: fixed;
@@ -1106,7 +1106,7 @@ body {
 }
 .container {
   margin-inline: auto;
-  max-width: 1100px;
+  max-width: 1337px;
 }
 #dark-toggle:checked ~ label div.toggle-circle {
   --tw-translate-x: calc(var(--spacing) * 3);
